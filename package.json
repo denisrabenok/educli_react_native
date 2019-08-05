@@ -1,0 +1,52 @@
+{
+  "name": "Educli",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "native-base": "^2.7.0",
+    "prop-types": "^15.6.2",
+    "query-string": "^6.1.0",
+    "react": "16.3.1",
+    "react-addons-shallow-compare": "^15.6.2",
+    "react-localization": "^1.0.10",
+    "react-native": "^0.55.4",
+    "react-native-keyboard-aware-scroll-view": "^0.6.0",
+    "react-native-keyboard-aware-scrollview": "^2.0.0",
+    "react-native-keyboard-aware-view": "0.0.14",
+    "react-native-material-dropdown": "^0.11.1",
+    "react-native-orientation": "^3.1.3",
+    "react-native-picker-select": "^4.0.0",
+    "react-native-popup-dialog": "^0.14.50",
+    "react-native-progress": "^3.5.0",
+    "react-native-remote-svg": "^1.2.0",
+    "react-native-render-html": "^3.10.0",
+    "react-native-smart-splash-screen": "^2.3.5",
+    "react-native-svg": "^5.5.1",
+    "react-native-svg-uri": "^1.2.3",
+    "react-native-table-component": "^1.1.8",
+    "react-native-toast-native": "^1.2.1",
+    "react-navigation": "^2.5.5",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-action-buffer": "^1.2.0",
+    "redux-immutable": "^4.0.0",
+    "redux-persist-immutable": "^4.3.1",
+    "redux-saga": "^0.16.0",
+    "rx-fetch": "^1.3.6",
+    "showdown": "^1.8.6"
+  },
+  "devDependencies": {
+    "babel-jest": "23.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.2.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
